@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Images</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+        <style type="text/css">
+            .hide-bullets {
+                list-style:none;
+                margin-left: -40px;
+                margin-top:20px;
+            }
+            .thumbnail {
+                padding: 0;
+            }
+            .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+                width: 100%;
+            }
+        </style>
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <!-- ANOTHER CAROUSEL -->
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators"></ol>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner"></div>
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div> 
+        <!-- ANOTHER CAROUSEL --> 
+        <script src="js/caruosel.js"></script>
+    </body>
+</html>
